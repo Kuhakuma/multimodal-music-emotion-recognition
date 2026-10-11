@@ -1,0 +1,27 @@
+# Large Datasets (>10MB)
+light_spotify_dataset.csv
+spotify_lyrics_balanced_final.csv
+spotify_lyrics_clean_validated.csv
+spotify_prepared_final.csv
+
+# Model weights, checkpoints, & serialized models
+*.pkl
+*.joblib
+*.pt
+*.bin
+*.pth
+final_distilbert_lyrics/
+final_distilbert_lyrics_2/
+
+# Generated outputs
+figures/
+
+# Python environment and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+*.venv/
+env/
+venv/
+.env
