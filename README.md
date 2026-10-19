@@ -18,7 +18,7 @@ Traditional music emotion recognition typically relies solely on acoustic audio 
 This project implements a **Late Fusion Multimodal Architecture**:
 1. **Acoustic Stream:** Machine learning voting ensembles trained on Spotify audio descriptors (energy, valence, tempo, danceability, acousticness) mapped to Russell's Circumplex Model of Affect (Valence-Arousal space via the DEAM dataset).
 2. **NLP Lyrics Stream:** Fine-tuned **DistilBERT** transformer language model extracting semantic emotion and lyrical sentiment.
-3. **Late Fusion Classifier:** A probabilistic meta-classifier (Logistic Regression) dynamically blending predictions from both modalities, achieving superior classification performance over unimodal baselines (~75–82% vs. 70.19% unimodal acoustic).
+3. **Late Fusion Classifier:** A probabilistic meta-classifier (Logistic Regression) dynamically blending predictions from both modalities, achieving superior classification performance over unimodal baselines (73.94% test accuracy (0.74 macro F1) vs. 70.19% unimodal acoustic).
 4. **Interactive Web Deployment:** A full-featured web dashboard styled with a custom **Neo Kinpaku** dark gold design system, featuring real-time emotion radar charts, playlist emotion profiling, and intelligent mood-based music recommendations.
 
 ---
